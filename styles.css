@@ -1,0 +1,155 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*{
+}
+
+img, fieldset{
+    padding: 0px;
+    border: none;
+	margin: 0px;
+	line-height: 0px;
+}
+
+
+body{	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    background: #000000 url(images/bg.jpg)  no-repeat fixed;
+	
+}
+
+     p
+     {
+            font-family: "Tekton Pro";
+            font-size: 22px;
+            text-align: left;
+            color: white;
+            bold:true;
+            margin-top:3;
+            margin-left:4;
+            margin-right:4;
+        }
+         td
+     {
+            font-family: "Tekton Pro";
+            font-size: 22px;
+            text-align: left;
+            color: white;
+              font-weight:  700;
+            margin-top:3;
+            margin-left:4;
+            margin-right:4;
+        }
+#bg2 {
+	background: url(images/bg2.png) repeat-x top;
+	height: 87px;
+	position: absolute;
+	width: 100%;
+}
+
+#wrapper1 {
+	position: relative;
+	width:900px;
+	margin: 0 auto;
+}
+
+
+
+#banner{
+	
+	padding:0px 12px;
+	position: relative;
+	
+	margin: 0 auto;
+	}
+#content_box{
+	background: url(images/tile1.png) repeat;
+	padding:0px 12px;
+	position: relative;
+	width:1000px;
+	height:700px;
+	margin:0 auto;
+
+}
+#content_box2{
+	background: url(images/tile1.png) repeat;
+	padding:0px 12px;
+	position: relative;
+	width:1000px;
+	height:1200px;
+	margin:0 auto;
+
+}
+/*
+header
+*/
+#header {
+	height: 326px;
+	width: 876px;
+}
+
+
+#cssmenu ul
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:900px;
+	position:relative;
+	display:block;
+	height:30px;
+	font-size:12px;
+	font-weight:bold;
+	background:url('images/nav_bg.png') repeat-x left top;
+	font-family:Arial, Helvetica, sans-serif;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+    top: 0px;
+    left: 0px;
+}
+
+#cssmenu li
+{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+	
+#cssmenu li a
+{
+	display:block;
+	float:left;
+	color:#999999;
+	text-decoration:none;
+	font-weight:bold;
+	padding:8px 20px 0 20px;
+}
+	
+#cssmenu li a:hover
+{	
+	color:#FFFFFF;
+	height:22px;
+	background:transparent url('images/nav_bg.png') 0px -30px no-repeat;		
+}
+	
+
+#cssmenu li.active a
+{
+	display:inline;
+	height:22px;
+	background:transparent url('images/nav_bg.png') 0px -30px no-repeat;	
+	float:left;
+	margin:0;
+}
+
+.modalBackground {
+    background-color:Gray;filter:alpha(opacity=70);opacity:0.7;
+}
+
